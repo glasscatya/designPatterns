@@ -1,4 +1,7 @@
-package chapter1;
+package chapter1.behaviorImp;
+
+import chapter1.duckAbs.Duck;
+import chapter1.duckInstance.ModelDuck;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

@@ -1,6 +1,8 @@
-package chapter1;
+package chapter1.behaviorImp;
 
-public class FlyNoWay implements FlyBehavior{
+import chapter1.behavior.FlyBehavior;
+
+public class FlyNoWay implements FlyBehavior {
     @Override
     public void fly() {
         System.out.println("不能飞行.");

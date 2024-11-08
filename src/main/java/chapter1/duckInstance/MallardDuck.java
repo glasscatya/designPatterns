@@ -1,4 +1,8 @@
-package chapter1;
+package chapter1.duckInstance;
+
+import chapter1.behaviorImp.FlyWithWings;
+import chapter1.behaviorImp.MuteQuack;
+import chapter1.duckAbs.Duck;
 
 public class MallardDuck extends Duck {
 
@@ -8,7 +12,7 @@ public class MallardDuck extends Duck {
     }
 
     @Override
-    void display() {
+    public void display() {
         System.out.println("MallardDuck display!");
     }
 

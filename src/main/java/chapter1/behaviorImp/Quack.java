@@ -1,6 +1,8 @@
-package chapter1;
+package chapter1.behaviorImp;
 
-public class Quack implements QuackBehavior{
+import chapter1.behavior.QuackBehavior;
+
+public class Quack implements QuackBehavior {
     @Override
     public void quack() {
         System.out.println("Quack的叫");

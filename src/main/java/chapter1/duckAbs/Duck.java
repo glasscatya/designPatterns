@@ -1,8 +1,11 @@
-package chapter1;
+package chapter1.duckAbs;
+
+import chapter1.behavior.FlyBehavior;
+import chapter1.behavior.QuackBehavior;
 
 public abstract class Duck {
-    FlyBehavior flyBehavior;
-    QuackBehavior quackBehavior;
+    public FlyBehavior flyBehavior;
+    public QuackBehavior quackBehavior;
     public void performFly() {
         flyBehavior.fly();
     }
@@ -19,8 +22,8 @@ public abstract class Duck {
         quackBehavior = qb;
     }
 
-    abstract void display();
-    void swim() {
+    public abstract void display();
+    public void swim() {
         System.out.println(this.getClass().getSimpleName() + " swim!");
     }
 }

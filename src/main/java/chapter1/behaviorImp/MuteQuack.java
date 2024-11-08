@@ -1,6 +1,8 @@
-package chapter1;
+package chapter1.behaviorImp;
 
-public class MuteQuack implements QuackBehavior{
+import chapter1.behavior.QuackBehavior;
+
+public class MuteQuack implements QuackBehavior {
 
     @Override
     public void quack() {
